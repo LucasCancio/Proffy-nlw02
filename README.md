@@ -1,44 +1,111 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](docs/nlw_background.jpg)
+<h1 align="center">👨‍🏫 PROFFY 📚</h1>
+<h3 align="center">🏆 NEXT LEVEL WEEK 2 🏆</h3>
 
-## Available Scripts
+### 🤔 O que é o Next Level Week?
 
-In the project directory, you can run:
+Criado pela Rocketseat, o NLW é uma semana prática com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
 
-### `npm start`
+Através do nosso método você aprende novas ferramentas, conhece novas tecnologias e descobre hacks que impulsionão a sua carreira.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Um evento online e totalmente gratuito que te ajuda a dar o próximo passo na sua evolução como dev.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+_________
 
-### `npm test`
+### ✨ Sobre o projeto:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+<img width="600" src="docs/proffy.png">
+</p>
 
-### `npm run build`
+Para professores e alunos, o Proffy é um aplicativo que visa fazer conexões entre professores e alunos. Com ele, é possível encontrar professores dispostos a ensinar e alunos dispostos a estudar. Nele, o(a) professor(a) cadastrará sua matéria, seu custo/hora, seus horaríos dispóniveis e um telefone para contato. E com isso, todos os alunos que tiverem interesse em aprender com aquele(a) professor(a), poderá entrar em contato via Whatsapp
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_________
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 💡 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `npm run eject`
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Knex](http://knexjs.org/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_________
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   <p style="margin-left:5em">🏭 <b>Servidor</b>&nbsp;&nbsp;&nbsp;&nbsp;./server - API REST usando TypeScript, Express e banco de dados SQLite </p><p style="margin-left:5em">🌍 <b>Web</b>&nbsp;&nbsp;&nbsp;&nbsp;./web - Interface web em RectJS e TypeScript </p>
+   <p style="margin-left:5em">📱 <b>Mobile</b>&nbsp;&nbsp;&nbsp;&nbsp;./mobile - Interface mobile em ReactNative, TypeScript e Expo </p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_________
 
-## Learn More
+## 📝 Instalações e usos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone ou faça o downlod desse repositório:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+# Clone o repositório
+$ git clone https://github.com/LucasCancio/nlw-01
+```
+
+Acesse a pasta server e faça as instalações:
+
+```
+# Acesse a pasta do backend
+$ cd server/
+
+# Instale as dependencias
+$ npm install
+
+# Execute as migrations
+$ npm knex:migrate
+
+# Rode a API
+$ npm run dev
+
+# running on port 3333
+```
+Acesse a pasta web e faça as instalações:
+
+```
+# Acesse a pasta do frontend
+$ cd web/
+
+# Instale as dependencias
+$ npm install
+
+# Rode 
+$ npm start
+
+# running on port 3000
+```
+
+Acesse a pasta mobile e faça as instalações:
+
+```
+# Acesse a pasta do mobile
+$ cd mobile/
+
+# Instale as dependencias
+$ npm install
+
+# Rode 
+$ npm start
+
+# A Expo será aberta, basta digitalizar o qrcode no terminal ou na página da exposição
+
+# Se houver algum problema com as fontes, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+# Você pode installar o aplicativo Expo para testar no celular
+```
+
+_________
+
+![](docs/rocket.gif)
+
+## ❤ Agradeço muito a [Rocketseat](https://rocketseat.com.br/)

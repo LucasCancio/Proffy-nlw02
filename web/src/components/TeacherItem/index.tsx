@@ -15,11 +15,11 @@ export interface Teacher {
   whatsapp: string;
 }
 
-interface TeacherItensProps {
+interface TeacherItemProps {
   teacher: Teacher;
 }
 
-const TeacherItem: React.FC<TeacherItensProps> = ({ teacher }) => {
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
   function createNewConnection() {
     api.post("connections", {
       user_id: teacher.id,
