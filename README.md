@@ -49,7 +49,7 @@ Clone ou faça o downlod desse repositório:
 
 ```
 # Clone o repositório
-$ git clone https://github.com/LucasCancio/nlw-01
+$ git clone https://github.com/LucasCancio/Proffy-nlw02
 ```
 
 Acesse a pasta server e faça as instalações:
