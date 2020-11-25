@@ -61,11 +61,8 @@ $ cd server/
 # Instale as dependencias
 $ npm install
 
-# Execute as migrations
-$ npm knex:migrate
-
 # Rode a API
-$ npm run dev
+$ npm start
 
 # running on port 3333
 ```
